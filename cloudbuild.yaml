@@ -15,3 +15,5 @@ steps:
       'push',
       'southamerica-west1-docker.pkg.dev/microservices-dev-459902/images-registry/auth-microservice',
     ]
+options:
+  logging: CLOUD_LOGGING_ONLY
